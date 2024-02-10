@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css'
 
 const Domain = () => {
-    const titles = ['Web Development', 'App Development', 'Artificial Intelligence and Machine Learniing', 'Blockchain', 'Cybersecurity and Forensics', 'Cloud Computing and Security', 'IoT and Robotics', 'Sustainability and Environment']
+    const titles = ['Web Development', 'App Development', 'Artificial Intelligence and Machine Learning', 'Blockchain', 'Cybersecurity and Forensics', 'Cloud Computing and Security', 'IoT and Robotics', 'Sustainability and Environment']
 
     if (window.screen.width > 1024) {
         window.addEventListener('scroll', (e) => {
