@@ -58,7 +58,7 @@ const Timeline = () => {
                         </div>
                         <div className="col col-right">
                             <div className="vertical-item">
-                                <h3>20th Feb, 12:00am</h3>
+                                <h3>25th Feb, 12:00am</h3>
                                 <p>Registration starts.</p>
                             </div>
                             <div className="vertical-item">

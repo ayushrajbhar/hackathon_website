@@ -16,7 +16,7 @@ const Hero = () => {
               <span></span>
               <span></span>
               <span></span>
-              <button onClick={() => alert('Stay Tuned! Registrations start from 20th Feb, 2024.')} className='register-button'>Register</button>
+              <button onClick={() => alert('Stay Tuned! Registrations start from 25th Feb, 2024.')} className='register-button'>Register</button>
             </div>
           </div>
         </div>
