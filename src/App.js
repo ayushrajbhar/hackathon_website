@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import About from './components/About';
 import Domain from './components/Domain';
@@ -13,6 +13,18 @@ import Loader from './components/Loader';
 
 function App() {
   const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   return (
     <div className='App'>
       {loading &&<Loader setLoading={setLoading} />}

@@ -4,22 +4,22 @@ import '../App.css'
 const Sponsors = () => {
     const platformSponsors = [
         {
-            name: 'Devfolio',
+            name: 'DEVFOLIO LOGO',
             img: `${process.env.PUBLIC_URL + '/images/devfolio.png' }`,
-            link: 'https://devfolio.co/discover'
+            link: 'https://devfolio.co'
         },
     ]
 
-    const platinumSponsors = [
+    const goldSponsors = [
         {
-            name: 'Polygon',
+            name: 'POLYGON LOGO',
             img: `${process.env.PUBLIC_URL + '/images/polygon.png' }`,
             link: 'https://polygon.technology/'
         },
         {
-            name: 'Replit',
-            img: `${process.env.PUBLIC_URL + '/images/replit.png' }`,
-            link: 'https://replit.com/'
+            name: 'ETHINDIA LOGO',
+            img: `${process.env.PUBLIC_URL + '/images/ETHIndia.png' }`,
+            link: 'https://ethindia.co'
         },
     ]
     
@@ -32,9 +32,9 @@ const Sponsors = () => {
         </div>
       </div>
       <div className="sponsor-tier">
-        <h3 className="sponsor-tier-title">PLATINUM SPONSORS</h3>
+        <h3 className="sponsor-tier-title">GOLD SPONSORS</h3>
         <div className="sponsor-logos">
-            {platinumSponsors.map((item, i) => {
+            {goldSponsors.map((item, i) => {
                 return (
                     <a href={item.link} target='_blank' rel="noreferrer" key={i}>
                         <img src={item.img} alt={item.name} className="sponsor-logo" />

@@ -804,6 +804,7 @@ html{
 
 .sponsor-logo{
   width: 15rem;
+  border-radius: 1rem;
 }
 
 .faqs{
