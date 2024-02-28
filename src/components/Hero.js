@@ -16,7 +16,7 @@ const Hero = () => {
               <span></span>
               <span></span>
               <span></span>
-              <button onClick={() => alert('Stay Tuned! Registrations start from 25th Feb, 2024.')} className='register-button'>Register</button>
+              <a href='https://hackhaven-1.devfolio.co/overview' target='_blank' className='register-button'>Register</a>
             </div>
           </div>
         </div>

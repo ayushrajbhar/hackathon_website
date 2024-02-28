@@ -10,6 +10,14 @@ const Sponsors = () => {
         },
     ]
 
+    const platinumSponsors = [
+        {
+            name: 'LAB SYSTEMS',
+            img: `${process.env.PUBLIC_URL + '/images/lab systems.png' }`,
+            link: 'https://www.labsystems.co.in/'
+        },
+    ]
+
     const goldSponsors = [
         {
             name: 'POLYGON LOGO',
@@ -22,6 +30,19 @@ const Sponsors = () => {
             link: 'https://ethindia.co'
         },
     ]
+
+    const silverSponsors = [
+        {
+            name: 'ACE ECO SYSTEMS',
+            img: `${process.env.PUBLIC_URL + '/images/ace eco systems.png' }`,
+            link: 'https://m.indiamart.com/aceecosystem/'
+        },
+        {
+            name: 'JK ENTERPRISES',
+            img: `${process.env.PUBLIC_URL + '/images/jk enterprises.png' }`,
+            link: 'https://jk-enterprises.in/'
+        },
+    ]
     
     
   return (
@@ -32,9 +53,33 @@ const Sponsors = () => {
         </div>
       </div>
       <div className="sponsor-tier">
+        <h3 className="sponsor-tier-title">PLATINUM SPONSORS</h3>
+        <div className="sponsor-logos">
+            {platinumSponsors.map((item, i) => {
+                return (
+                    <a href={item.link} target='_blank' rel="noreferrer" key={i}>
+                        <img src={item.img} alt={item.name} className="sponsor-logo" />
+                    </a>
+                )
+            })}
+        </div>
+      </div>
+      <div className="sponsor-tier">
         <h3 className="sponsor-tier-title">GOLD SPONSORS</h3>
         <div className="sponsor-logos">
             {goldSponsors.map((item, i) => {
+                return (
+                    <a href={item.link} target='_blank' rel="noreferrer" key={i}>
+                        <img src={item.img} alt={item.name} className="sponsor-logo" />
+                    </a>
+                )
+            })}
+        </div>
+      </div>
+      <div className="sponsor-tier">
+        <h3 className="sponsor-tier-title">SILVER SPONSORS</h3>
+        <div className="sponsor-logos">
+            {silverSponsors.map((item, i) => {
                 return (
                     <a href={item.link} target='_blank' rel="noreferrer" key={i}>
                         <img src={item.img} alt={item.name} className="sponsor-logo" />
