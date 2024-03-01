@@ -17,7 +17,7 @@ const Footer = () => {
                             class="apply-button"
                             data-hackathon-slug="hackhaven-1"
                             data-button-theme="light"
-                            style={{height: "44px", width: "312px"}}
+                            style={{height: "44px", width: "200px"}}
                         ></div>
                         <div className="contact-title">Contact Us</div>
                         <div className="email">csi@slrtce.in</div>
