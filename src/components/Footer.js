@@ -13,12 +13,12 @@ const Footer = () => {
                 <a href='#register' className="footer-title">HACKHAVEN</a>
                 <div className="footer-contacts">
                     <div className="email-container">
-                        <div
+                        {/* <div
                             class="apply-button"
                             data-hackathon-slug="hackhaven-1"
                             data-button-theme="light"
                             style={{height: "44px", width: "200px"}}
-                        ></div>
+                        ></div> */}
                         <div className="contact-title">Contact Us</div>
                         <div className="email">csi@slrtce.in</div>
                     </div>
