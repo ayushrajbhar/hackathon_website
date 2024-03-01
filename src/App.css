@@ -942,6 +942,10 @@ html{
   padding: 2rem 1rem;
 }
 
+.apply-button{
+  max-width: 200px;
+}
+
 @media (max-width: 1024px) {
   .hero-content {
     left: 4rem;
