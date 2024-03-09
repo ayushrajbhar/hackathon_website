@@ -62,11 +62,11 @@ const Timeline = () => {
                                 <p>Registration starts.</p>
                             </div>
                             <div className="vertical-item">
-                                <h3>09th Mar, 11:59pm</h3>
+                                <h3>13th Mar, 11:59pm</h3>
                                 <p>Registration ends.</p>
                             </div>
                             <div className="vertical-item">
-                                <h3>10th Mar, 11:59m</h3>
+                                <h3>13th Mar, 11:59m</h3>
                                 <p>Round 1: Abstract Submission Last Date.</p>
                             </div>
                             <div className="vertical-item">
